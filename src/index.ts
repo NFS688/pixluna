@@ -28,7 +28,6 @@ export function apply(ctx: Context, config: Config) {
                 )
             }
 
-            await session.send('不可以涩涩哦~')
 
             const sourceProviders = Array.isArray(config.defaultSourceProvider)
                 ? config.defaultSourceProvider
